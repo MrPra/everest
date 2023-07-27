@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.not {
+    margin: 4px;
+    padding: 5px;
+    text-align: center;
+}
+.gallery{
+    width:80%;
+    margin: 100px auto 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    grid-gap: 30px;
+}
+.gallery {
+    width: 100%;
+    cursor: pointer;
+}
+
